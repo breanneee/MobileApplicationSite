@@ -121,7 +121,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/android_background.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Android Development</h4>
@@ -480,7 +480,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
+    <!-- Android Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -493,12 +493,99 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Android</h2>
+                            <p class="item-intro text-muted">Powered by Google</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/android_background.jpg" alt="" />
+                            <div class="col-lg-12">
+                                <h3>Background</h3>
+                                <p>
+                                    The Android Operating System was released commercially for the first time in 2008 shortly after iOS and the iPhone launched. Since then the open source operating system has gone through various updates and is currently on version 5.0. The most current version stays with the 'sweet treats' inspired naming convention and is called Lollipop. Because of the open source nature of the project, the Android OS runs in many variations on a wide multitude of devices. This may have contributed to the fact that 85% of all phones sold globally last year being Android based. The Android project is currently being developed jointly by Google and the Open Handset Alliance and the source code is written in a combination of C/C++ and Java. The framework they have developed can be visualized below where everything in blue was written in Java while everything else is C, C++ or a combination of the two.
+                                </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/android_framework.png" />
+                                <h3>Development Environments</h3>
+                                <p>
+                                    Development environments can really impact the effectiveness and convenience of a developer. Fortunately for Android, there are several options to choose from. As far as IDEs go, the two main options are Eclipse with the Android Development Tools (ADT) plugin or Android Studio. Eclipse is a good option for those already accustomed to this IDE and has the advantage of a variety of plugins available. Android Studio on the other hand is still in its Beta stage however there have been good reviews already. It is based on IntelliJ IDEA and will be endorsed as the official IDE once development is complete. Both of these options have debuggers and profilers as well as built in emulators to test apps. A common complaint is that these emulators are quite slow, however, and many use a third party emulator called Genymotion which is built using VirtualBox.
+                                </p>
+                                <h3>Design Features</h3>
+                                <p>
+                                    Following are some of the key design components of an Android application. When building any sort of app a developer will most likely run into all of these features and most likely use all of them too.
+                                    <ul id="designFeatures">
+                                        <li>
+                                            <p><strong>Activity</strong> – easy to think of this as a “screen” in an application</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Layout</strong> – defined in an xml file; comes in different flavors (absolute, relative, linear)</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Views</strong> – visible component of an activity; location defined in layout file; often have onClick handlers</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Service</strong> – a background process that may not have a view associated</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Widget</strong> – view only interface to service</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Action Bar</strong> – introduced in 3.0; provides useful user options</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Options Menu</strong> – resides in Action Bar and present by default; options defined in menu layout xml files</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Fragments</strong> – reusable portions of UI; useful for supporting both small and large sized screens</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Persistence</strong> – Data can be stored on internal phone storage or external SD card using SQLite</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Content Providers</strong> – avenue for sharing data between other apps on device (like contacts or media)</p>
+                                        </li>
+                                    </ul>
+                                </p>
+                                <h3>Activity Lifecycle</h3>
+                                <p>
+                                    The activity lifecyle of an activity in an Android app is detailed below. Essentially, different user or OS triggers can result in a lifecycle method being called. The methods can be overridden by the developer to include calls to methods that need to be executed everytime that part of the lifecycle is entered (such as saving user data, or populating text fields, etc.)
+                                </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/android_lifecycle.png" />
+                                <h3>Publishing</h3>
+                                <p>
+                                    Publishing options have grown since the inital launch of Android. The Android Marketplace was the only platform to publish apps upon the initial release of the Android operating system back in  2008. Since then the name has changed to the Google Play Store and over 1.3 million apps are available for download there as well as music, videos and other media. Google moniters the apps listed on this platform for security and policy violations. Another nice feature is that unlike the Apple App Store, when a user downloads an app from Google Play Store, they are immediately notified of all the permissions the app requires. Recently Amazon Appstore has also shown to be a growing distribution option for developers of Android apps.
+                                <h3>Advantages & Disadvantages</h3>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h5>Advantages</h5>
+                                        <ul>
+                                            <li>
+                                                Free to start developing
+                                            </li>
+                                            <li>
+                                                Large and growing user base
+                                            </li>
+                                            <li>
+                                                Less restrictive policies to distribute app
+                                            </li>
+                                            <li>
+                                                Multiple distribution platforms
+                                            </li>   
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h5>Disadvantages</h5>
+                                        <ul>
+                                            <li>
+                                                Registration fee to distribute app to Play Store
+                                            </li>
+                                            <li>
+                                                Large variety of devices and OS versions to support
+                                            </li>
+                                            <li>
+                                                Multiple distribution platforms
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br/>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Android</button>
                         </div>
                     </div>
                 </div>
