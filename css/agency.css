@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/mobile-devices.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -859,4 +859,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+ul#designFeatures{
+
+    list-style-type: none;
 }
